@@ -45,7 +45,7 @@ useEffect(() => {
 }, [])
 
 
-// filter + search applied instantly
+
 const filtered = useMemo(() => {
 const q = search.trim().toLowerCase()
 return products.filter(p => {
