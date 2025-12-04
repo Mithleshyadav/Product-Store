@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { AiFillStar } from "react-icons/ai";
-import ProductList from "../Product-Store/src/components/ProductList";
+
 
 export default function ProductCard({ product }) {
  
